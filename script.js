@@ -20,6 +20,7 @@ document.querySelector('.check').addEventListener('click', function () {
     } else {
       document.querySelector('.message').textContent = 'You loose the game😥';
       document.querySelector('.score').textContent = 0;
+      document.querySelector('.number').textContent = gues;
       document.querySelector('body').style.backgroundColor = '#8b0000';
     }
   } else {
